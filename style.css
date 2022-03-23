@@ -639,6 +639,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+
 h1,
 h2,
 h3,
@@ -729,6 +730,10 @@ h1 {
 h4 {
     color: #333333!important;
 }
+
+.col-xs-12 h4 {
+    color: #858585!important;
+}    
 
 .icons {
     margin-bottom: 14px;
@@ -1039,4 +1044,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.col-xs-12 h2 {
+    font-style: italic;
+}
+
+.col-xs-12 h4 {
+    font-size: 1.5em;
 }
