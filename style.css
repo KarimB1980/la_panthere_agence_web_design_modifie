@@ -1216,7 +1216,7 @@ img {
     max-width: 100%;
     /*height: auto;*/
     /*width: 100%;*/
-    aspect-ratio: attr(width) / attr(height);
+    /*aspect-ratio: attr(width) / attr(height);*/
 }
 
 .img-rounded {
@@ -4065,7 +4065,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4152,7 +4152,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)*/
 }
 
 .open>.dropdown-menu {
@@ -4903,7 +4903,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -4971,7 +4971,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding: 15px 15px;
     font-size: 18px;
     line-height: 20px;
-    aspect-ratio: attr(width) / attr(height);
+    /*aspect-ratio: attr(width) / attr(height);*/
 }
 
 .navbar-brand:focus,
@@ -7576,7 +7576,7 @@ button.close {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    aspect-ratio: attr(width) / attr(height);
+    /*aspect-ratio: attr(width) / attr(height);*/
 }
 
 .pull-right {
@@ -8712,13 +8712,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -8736,10 +8736,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -8748,8 +8744,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
