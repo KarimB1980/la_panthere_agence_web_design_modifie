@@ -1214,9 +1214,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    /*height: auto;*/
-    /*width: 100%;*/
-    /*aspect-ratio: attr(width) / attr(height);*/
+    height: auto;
 }
 
 .img-rounded {
