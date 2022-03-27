@@ -181,3 +181,10 @@ Header set Cache-Control "max-age=7200, must-revalidate"
   </IfModule> 
   FileETag None 
 </IfModule>
+
+# Servir les images avec le type de mime correct
+AddType image / webp .webp
+
+# Cache d'installation
+Expires Actif sur
+ExpiresByType image / webp A2592000
