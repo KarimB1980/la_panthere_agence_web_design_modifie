@@ -7961,7 +7961,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(4, 0, 180, .7);
 }
 
 .d-bloc button:hover {
@@ -7977,7 +7977,7 @@ a:hover {
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgba(4, 0, 180, .2);
 }
 
 .d-bloc .a-btn,
@@ -8599,7 +8599,7 @@ h4 {
 
 .white {
     /*color: #FFFFFF!important;*/
-    color: #000000!important;
+    color: #0400B4!important;
 }
 
 .portfolio-thumb {
