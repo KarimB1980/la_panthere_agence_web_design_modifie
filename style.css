@@ -4125,7 +4125,7 @@ tbody.collapse.in {
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
     color: #262626;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: #f5f5f5
 }
 
@@ -4133,7 +4133,7 @@ tbody.collapse.in {
 .dropdown-menu>.active>a:focus,
 .dropdown-menu>.active>a:hover {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: #337ab7;
     outline: 0
 }
@@ -4146,7 +4146,7 @@ tbody.collapse.in {
 
 .dropdown-menu>.disabled>a:focus,
 .dropdown-menu>.disabled>a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
@@ -4637,7 +4637,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li.disabled>a:focus,
 .nav>li.disabled>a:hover {
     color: #777;
-    text-decoration: none;
+    text-decoration: underline;
     cursor: not-allowed;
     background-color: transparent
 }
@@ -5600,7 +5600,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 .pager li>a:focus,
 .pager li>a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     background-color: #eee
 }
 
@@ -7875,7 +7875,7 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     cursor: pointer;
 }
 
