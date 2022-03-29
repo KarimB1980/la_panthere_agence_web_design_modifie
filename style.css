@@ -8063,6 +8063,7 @@ a:hover {
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
+    cursor: pointer;
 }
 
 .l-bloc .icon-round,
