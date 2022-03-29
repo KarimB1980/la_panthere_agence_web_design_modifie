@@ -8012,6 +8012,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+    font-style: italic;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -8111,6 +8112,7 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+    font-style: italic;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
