@@ -4969,7 +4969,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     padding: 15px 15px;
     font-size: 18px;
     line-height: 20px;
-    /*aspect-ratio: attr(width) / attr(height);*/
 }
 
 .navbar-brand:focus,
@@ -7574,7 +7573,6 @@ button.close {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    /*aspect-ratio: attr(width) / attr(height);*/
 }
 
 .pull-right {
